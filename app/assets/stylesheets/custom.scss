@@ -4,6 +4,7 @@
 /* mixins, variables, etc. */ 
 $gray-medium-light: #eaeaea;
 $aquamarine: #7fffd4;
+$blue-magenta: #9d5aed;
 
 /* universal */
 body {
@@ -26,6 +27,7 @@ textarea {
 /* typography */
 h1, h2, h3, h4, h5, h6 {
   line-height: 1;
+  color: $blue-magenta;
 }
 h1 {
   font-size: 3em;
@@ -55,10 +57,10 @@ p {
   text-transform: uppercase; 
   letter-spacing: -1px; 
   padding-top: 9px; 
-  font-weight: bold; 
+  font-weight: bold;
 } 
 #logo:hover { 
-  color: $aquamarine;
+  color: $blue-magenta;
   text-decoration: none;
 }
 
@@ -68,12 +70,13 @@ footer {
   padding-top: 5px;
   border-top: 1px solid #eaeaea;
   color: #777;
+  background-color: $blue-magenta;
 }
 footer a {
-  color: #555;
+  color: #aquamarine;
 }
 footer a:hover {
-  color: #222;
+  color: #aquamarine;
 }
 footer small {
   float: left;
