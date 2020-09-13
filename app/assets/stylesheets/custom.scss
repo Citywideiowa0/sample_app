@@ -5,6 +5,8 @@
 $gray-medium-light: #eaeaea;
 $aquamarine: #7fffd4;
 $blue-magenta: #9d5aed;
+$grinnell_red: #da291c;
+$white: #ffffff;
 
 /* universal */
 body {
@@ -53,14 +55,15 @@ p {
   float: left;
   margin-right: 10px;
   font-size: 1.7em;
-  color: $aquamarine; 
+  color: $white; 
   text-transform: uppercase; 
   letter-spacing: -1px; 
   padding-top: 9px; 
   font-weight: bold;
+  font-style: normal;
 } 
 #logo:hover { 
-  color: $blue-magenta;
+  color: $grinnell-red;
   text-decoration: none;
 }
 
@@ -70,13 +73,13 @@ footer {
   padding-top: 5px;
   border-top: 1px solid #eaeaea;
   color: #777;
-  background-color: $blue-magenta;
+  background-color: $grinnell-red;
 }
 footer a {
-  color: #aquamarine;
+  color: #grinnell-red;
 }
 footer a:hover {
-  color: #aquamarine;
+  color: #white;
 }
 footer small {
   float: left;
