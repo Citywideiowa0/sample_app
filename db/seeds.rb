@@ -6,4 +6,6 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
-
+Org.create(name: 'Connecting Grinnellians')
+Org.create(name: 'Altbreak')
+Org.create(name: "Ignite")
