@@ -9,3 +9,4 @@
 Org.create(name: 'Connecting Grinnellians')
 Org.create(name: 'Altbreak')
 Org.create(name: "Ignite")
+Opportune.create(name: "Highschool Tutor")

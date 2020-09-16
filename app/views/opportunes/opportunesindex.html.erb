@@ -1,0 +1,13 @@
+<% provide(:title, 'Organizations') %>
+
+<h1>Volunteering Opportunities</h1>
+
+
+<ul>
+  
+  <% @opportunes.each do | opportune | %>
+  <li><%= opportune.name %></li>
+  <% end %>
+
+
+</ul>

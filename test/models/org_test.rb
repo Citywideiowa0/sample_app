@@ -2,8 +2,7 @@ require 'test_helper'
 
 class OrgTest < ActiveSupport::TestCase
   
-  
-  test "Should not save Organization without a name" do
+  test "Should not save a Organization without a name" do
     organization = Org.new
     assert_not organization.save, "Saved Organization without a name"
   end
