@@ -9,5 +9,6 @@ Rails.application.routes.draw do
   
   resources :orgs
   resources :opportunes
+  resources :users
 
 end
