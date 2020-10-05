@@ -2,7 +2,10 @@
 
 <h1>Organizations</h1>
 
-<%= link_to "Log in", "#", class: "btn btn-lg btn-primary" %>
+<div align="right"> 
+  <%= link_to "Log in", "#", class: "btn btn-lg btn-primary" %>
+</div>
+
 <ul>
   <% @orgs.each do | org | %>
   <li><%= org.name %></li>

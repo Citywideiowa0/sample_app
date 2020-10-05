@@ -1,5 +1,10 @@
 class UsersController < ApplicationController
   
+  def index
+    user_list = User.all
+    @users = user_list
+  end
+  
   def new
     @user = User.new
   end
@@ -8,4 +13,23 @@ class UsersController < ApplicationController
     @user = User.find(params[:id])
   end
   
+  def create
+    @user = User.new(user_params)
+    
+    if @user.save
+      flash[:success] = "Welcome to the Sample App!"
+      #Note: Rails infer 'redirect_to @user' to mean 'redirect_to user_url(@user)'
+      redirect_to @user
+    else
+      render 'new'
+    end 
+  end
+  
+  private
+   def user_params
+     params.require(:user).permit(:name, :email, :password, 
+                                  :password_confirmation)
+   end #
+   
+   
 end

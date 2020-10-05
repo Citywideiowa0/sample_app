@@ -1,6 +1,6 @@
 class OrgsController < ApplicationController
 
-  def orgsindex
+  def index
     org_list = Org.all
     @orgs = org_list
   end

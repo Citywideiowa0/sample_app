@@ -1,6 +1,6 @@
 class OpportunesController < ApplicationController
   
-  def opportunesindex
+  def index
     opportune_list = Opportune.all
     @opportunes = opportune_list
   end
