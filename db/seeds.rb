@@ -6,7 +6,8 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
-Org.create(name: 'Connecting Grinnellians')
-Org.create(name: 'Altbreak')
-Org.create(name: "Ignite")
-Opportune.create(name: "Highschool Tutor")
+
+Opportune.create(name: "Highschool Tutoring")
+Opportune.create(name: "Middleschool Tutoring")
+Opportune.create(name: "Dog Walker")
+Opportune.create(name: "Middle School Mural Project")
