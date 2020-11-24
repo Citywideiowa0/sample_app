@@ -7,7 +7,13 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 
+# Dummy Users
+User.create(name: "michael", email: "myemail@example.com", password: "password" )
+
+# Dummy Opportunes
 Opportune.create(name: "Highschool Tutoring")
 Opportune.create(name: "Middleschool Tutoring")
 Opportune.create(name: "Dog Walker")
 Opportune.create(name: "Middle School Mural Project")
+
+
